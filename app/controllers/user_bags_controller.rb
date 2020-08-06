@@ -1,0 +1,2 @@
+class UserBagsController < ApplicationController
+end
