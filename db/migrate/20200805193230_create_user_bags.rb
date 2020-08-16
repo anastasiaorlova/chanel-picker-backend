@@ -7,6 +7,6 @@ class CreateUserBags < ActiveRecord::Migration[6.0]
 
       t.timestamps
     end
+    # add_index :user_bags, [:user_id, :bag_id], unique: true
   end
 end
-

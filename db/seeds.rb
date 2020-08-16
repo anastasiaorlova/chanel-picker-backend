@@ -185,13 +185,6 @@ bags = [
     style: "Collection",
     likes: 0},
 
-    {image: "https://www.bagaddictsanonymous.com/wp-content/uploads/2019/04/Chanel-Spring-Summer-19-Beach-Ball-Minaudiere.jpg",
-    description: "Chanel Beach Ball Bag
-    Glass
-    Pink & Turquoise",
-    style: "Collection",
-    likes: 0},
-
     {image: "https://www.christies.com/img/LotImages/2019/CKS/2019_CKS_16993_0188_000(a_fall_winter_runway_black_lucite_crystal_rocket_ship_evening_bag_chan).jpg",
     description: "Crystal Rocket Ship Evening bag
     Glass
