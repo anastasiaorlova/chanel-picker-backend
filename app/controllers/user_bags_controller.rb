@@ -14,11 +14,10 @@ class UserBagsController < ApplicationController
     end
 
     def destroy
-        userbag = UserBag.where(bag_id: params[:id])
+        userbag = UserBag.find_by(user_id: @current_user.id, bag_id: params[:id])
         # byebug
-        found_bag = userbag.find_by(user_id: @current_user.id)
-        found_bag.destroy
-
+        userbag.destroy
+        # byebug
         render json: { message: "GONE!" }
     end 
 
