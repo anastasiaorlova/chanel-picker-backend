@@ -6,7 +6,7 @@ class UserBagsController < ApplicationController
         user_id: @current_user.id
         )
 
-        if !!userbag 
+        if userbag.valid? 
             render json: userbag.bag 
         else 
             render json: {  message: "Object error!" }
