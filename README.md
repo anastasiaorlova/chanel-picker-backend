@@ -1,24 +1,27 @@
-# README
+<img src="https://i.imgur.com/OxOeFcT.jpg" alt="chanel" />
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Chanel handbag picker 
 
-Things you may want to cover:
+Chanel handbag picker - an app that helps you find a perfect style of Chanel Handbag.
 
-* Ruby version
+# Getting Started
 
-* System dependencies
+- Clone this repository onto your local machine
+- Run 'bundle install' to download all the necessary gems
+- Run 'rails db:migrate' to create the database
+- Run 'rails db:seed' to seed the database 
+- Once you all set, run 'rails s -p 3001' to start the server
 
-* Configuration
+# Functionality
 
-* Database creation
+A User can:
 
-* Database initialization
+- login/sign up/log out 
+- update profile picture and bio
+- figure out what Chanel style works the best (a list of features ex. "If you're rebellious and want to show off, check this style and click the link to see more")
+- see handbags of each style, like them and add to wishlist
+- remove bags from the wishlist 
+- take a quiz about Chanel handbags
 
-* How to run the test suite
+All the pictures are taken from the official Chanel website.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
